@@ -32,10 +32,11 @@ section {
 /* Estilos del HERO / Cabecera */
 /* --------------------------------- */
 .hero {
-    background-image: url('https://imgs.search.brave.com/MkCp2LJoseeEWkuKVXVHzu5Wf-ijwshbMXFmO4w4TsA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE1Lzg5LzA1/LzM2MF9GXzUxNTg5/MDU4NV9EclI0U3F2/NWw4WmFOclZSeWpM/N08wRExCSlVnNWM2/bS5qcGchttps://imgs.search.brave.com/MkCp2LJoseeEWkuKVXVHzu5Wf-ijwshbMXFmO4w4TsA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE1Lzg5LzA1/LzM2MF9GXzUxNTg5/MDU4NV9EclI0U3F2/NWw4WmFOclZSeWpM/N08wRExCSlVnNWM2/bS5qcGc'); /* Reemplaza con una imagen real de birria */
+    background-image: url('https://imgs.search.brave.com/u6zDr6f0pXZkLIcxiY0LrzS3vakiz9O4q1EEUPfjPOA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQw/NzU1MTM3My9waG90/by9ob21lbWFkZS1z/dGVhay1iaXJyaWEt/bWVhdC10YWNvcy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/ZlJlNUpOSm41MkpK/dkV5T0xFRkFJVnY0/QWJScDVEb09tOHlv/c1V2UGh5MD0');
     background-size: cover;
     background-position: center;
-    height: 100vh; /* Ocupa el 100% de la altura de la vista */
+    background-repeat: no-repeat;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,11 +106,24 @@ section {
     max-width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
 }
 
 .producto h3 {
     margin-top: 0;
     color: var(--color-principal);
+}
+
+.producto-img {
+    width: 100%;
+    height: 200px; /* Todas las imágenes tendrán la misma altura */
+    object-fit: cover; /* Evita que se deformen */
+    border-radius: 8px;
+    margin-bottom: 15px;
 }
 
 .precio {
