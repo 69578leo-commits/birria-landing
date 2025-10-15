@@ -32,7 +32,7 @@ section {
 /* Estilos del HERO / Cabecera */
 /* --------------------------------- */
 .hero {
-    background-image: url('https://via.placeholder.com/1200x500/A03222/FFFFFF?text=FOTO+DE+BIRRIA+AQUI'); /* Reemplaza con una imagen real de birria */
+    background-image: url('https://imgs.search.brave.com/MkCp2LJoseeEWkuKVXVHzu5Wf-ijwshbMXFmO4w4TsA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE1Lzg5LzA1/LzM2MF9GXzUxNTg5/MDU4NV9EclI0U3F2/NWw4WmFOclZSeWpM/N08wRExCSlVnNWM2/bS5qcGchttps://imgs.search.brave.com/MkCp2LJoseeEWkuKVXVHzu5Wf-ijwshbMXFmO4w4TsA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1LzE1Lzg5LzA1/LzM2MF9GXzUxNTg5/MDU4NV9EclI0U3F2/NWw4WmFOclZSeWpM/N08wRExCSlVnNWM2/bS5qcGc'); /* Reemplaza con una imagen real de birria */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Ocupa el 100% de la altura de la vista */
